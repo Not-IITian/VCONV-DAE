@@ -1,0 +1,15 @@
+This doc briefly explains all the main files needed to run Vconv-DAE:
+
+--train_vol_autoencoder.lua is the main file that trains the auto-encoder on volumetric data.
+--The Data is stored in the Data folder.
+
+
+-- FT_trained_model.lua fine tunes the trained model for the task of classification.
+
+--tes_overall_error.lua takes the test set for each class and outputs the shape completion and
+denoising error.
+
+--interpolating decoder.lua is used to write the encoder and deccoder into binary file for the blending purpose.
+--the output of this script is later fed to a mat script (view_interpolation.m) that does the blending and visualize it.
+
+
