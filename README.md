@@ -12,7 +12,7 @@ This repository has a mix of scripts written in lua and Matlab. Torch needs to b
 --The Data is stored in the Data folder.
 
 
-# Tables and numbers ---------------------------------------------------------------
+# Tables and numbers 
 --mess_classifer saves the fixed length descriptor of all test set in binary format. This is later read by eval_classification script in matlab which classifies the test set using sVM (libsvm) for unsupervised performance
 
 -- FT_trained_model.lua fine tunes the trained model for the task of classification.
@@ -21,7 +21,7 @@ This repository has a mix of scripts written in lua and Matlab. Torch needs to b
  completion and denoising error.
 
 
-# Figures----------------------------------------------------------
+# Figures and Images
 -- train_test_pass.lua can take any corrupted instance from test set, feed-forward it to trained network and saves
 the output in binary format. Visualise.m matlab script then reads it and visualize the output in 3D. 
 
