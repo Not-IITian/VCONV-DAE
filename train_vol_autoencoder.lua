@@ -1,6 +1,8 @@
 
---this scripts trains a volumetric auto-encoder for 10 classth tra
+--this script trains a volumetric auto-encoder for 10 classes
 --with pure SGD. default training parameters are already entered.
+--if you do not have cutorch or CUDA installed, comment the cuda
+--source code.
 require 'torch'
 require 'nn'
 require 'nnx'
