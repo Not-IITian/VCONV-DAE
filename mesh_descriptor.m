@@ -1,5 +1,6 @@
 
 % script to convert asci feature files to feature matrix
+% this will not be needed in future version
 no_class = 40 ;
 no_pose = 12 ;
 % tr_samples = no_class*no_pose*; % for 10 classes

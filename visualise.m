@@ -1,3 +1,4 @@
+% this scripts is used to visualize the shape completion output figures as shown in the paper.
 classes = {  'desk', 'bathtub', 'toilet', 'monitor', 'night_stand', 'table', 'sofa', 'dresser', 'bed', 'chair'} ; 
 classes_len = [4, 7, 6,  7, 11, 5, 4, 7, 3, 5] ; %   used later
 % classes = {'chair'} ;

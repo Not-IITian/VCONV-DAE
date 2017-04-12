@@ -1,5 +1,5 @@
 
--- this script takes as input a list of pre-trained model and fine tunes it 
+-- this script takes as input a pre-trained autoencoder model and fine tunes it 
 --for classification
 require 'torch'
 require 'nn'
@@ -27,6 +27,7 @@ torch.setdefaulttensortype('torch.FloatTensor')
 -- threads
 tot_epochs = 500
 dropout_p = .5
+-- load the model you want to fine tune for classifcation
 model = torch.load('mul-class/AE_6912_.1_10class_r/'..'model.net')
 no_outputs = 10
 

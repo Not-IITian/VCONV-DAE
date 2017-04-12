@@ -1,5 +1,6 @@
 clear all ;
 % take the first and last viewpoint descriptor of an object
+% and interpolat the intermediate ones.
 no_files_per_class = 12*80 ;
 % load some model of chair and first-last view point
 classes = {'sofa'} ;
