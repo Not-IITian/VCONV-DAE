@@ -1,5 +1,5 @@
 --- this script is divided in two parts based on an if-else statement 
--- first part (encoder ==1) takes a  trained model and a class model as input and saves the enocder part in a binary file  
+-- first part (encoder ==1) takes a  trained model and a class model as input and saves the output of enocder part in a binary file .
 -- second part (encoder=0, decoder =1) takes input a mat file of 
 
 require 'cunn'

@@ -1,5 +1,5 @@
--- this file is meant to save the test data file in binary format
---to be later used for visalization purpose in matlab.
+-- this file is meant to feed the corrupted 3D test data to the network and save the output in binary format
+--this output is then read and visualized in matlab.
 
 -----------------------------------------------------------------
 --cad model used for paper 

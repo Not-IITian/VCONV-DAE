@@ -1,4 +1,4 @@
---this script reproduces the shape completion numbers in the table.
+--this script reproduces the shape completion numbers of our papers.
 --For each class in ModelNet10, it takes input as a mat file of all its instances
 --and outputs the average error 
 
@@ -13,7 +13,7 @@ require 'cunn'
 
 matio = require 'matio'
 --model = torch.load('mul-class/AE_6912_.1_10class_r/'..'model.net')
-model = torch.load('mul-class-models/log_exp_64_256_64_.5_.1_10class_r_nll_new/'..'model.net')
+model = torch.load('mul-class-models/AE_6912_.1_10class_r_dummy/'..'model.net')
 print(model)
 --data = torch.rand(5,5)
 --matio.save('dummy.mat',data)
