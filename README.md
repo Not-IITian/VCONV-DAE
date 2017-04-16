@@ -10,6 +10,7 @@ VConv-DAE: Deep Volumetric Shape Learning Without Object Labels Inproceedings
 
 Geometry Meets Deep Learning Workshop at European Conference on Computer Vision (ECCV-W), 2016.
 
+For any question regarding this code, please send an email to asharma@mpi-inf.mpg.de
 # Prerequisites 
 This repository has a mix of scripts written in lua and Matlab. Torch needs to be installed to train the model. For visualization purpose, Matlab is required. Note that this code is written for research purpose only. Please read the following brief description to make best use of scripts.
 
