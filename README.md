@@ -4,13 +4,11 @@ Code for reproducing experiments in https://link.springer.com/chapter/10.1007/97
 VCONV-DAE is a 3D volumetric denoising auto-encoder. This repository provides the data as well as code-tools
 used to train the model and visualize the end results for shape completion and blending. If you use this code, please cite the paper: 
 
-Abhishek Sharma, Oliver Grau, Mario Fritz
-
-VConv-DAE: Deep Volumetric Shape Learning Without Object Labels Inproceedings 
+VConv-DAE: Deep Volumetric Shape Learning Without Object Labels 
 
  at European Conference on Computer Vision (ECCVW), 2016.
 
-For any question regarding this code, please send an email to kein.iitian@gmail.com
+For any question regarding this code, please send an email to kein.iitian@gmail.com. Note that various recent work consider Vconv-dae as a baseline and thus, may have the same implementation available in different frameworks. 
 # Prerequisites 
 This repository has a mix of scripts written in lua and Matlab. Torch needs to be installed to train the model. For visualization purpose, Matlab is required. Note that this code is written for research purpose only. Please read the following brief description to make best use of scripts.
 
